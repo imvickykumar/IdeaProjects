@@ -18,15 +18,16 @@ public class Main {
 //        System.out.println(stack);
 
         Queue queueDemo = new Queue();
+
+        queueDemo.enqueue(23); queueDemo.display();
+        queueDemo.enqueue(2); queueDemo.display();
+        queueDemo.enqueue(73); queueDemo.display();
+
+
+        queueDemo.dequeue(); queueDemo.display();
         queueDemo.dequeue();
-        queueDemo.enqueue(23);
-        queueDemo.enqueue(2);
-        queueDemo.enqueue(73);
-        queueDemo.enqueue(21);
-        queueDemo.dequeue();
-        queueDemo.dequeue();
-        queueDemo.dequeue();
-        queueDemo.dequeue();
+
+        queueDemo.display();
     }
 
 
